@@ -1,5 +1,7 @@
-# Embedded Digital Matrix
+# micro embedded Matrix
 
-FPGA emulation of Silega GreenPAK (Programmable Mixed-signal Matrix IC).
+Research for embedded "matrix" style Programmable Device architectures.
 
-Research for FPGA embedded "matrix" stype Programmable Device architectures.
+Variants exist that can emulate of Silego GreenPAK (Programmable Mixed-signal Matrix IC) devices in FPGA.
+
+
