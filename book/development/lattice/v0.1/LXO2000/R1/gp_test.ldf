@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="gp_test" device="LCMXO2-4000HC-4QN84C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="xo2000_top" top="xo2000_top"/>
+        <Source name="src/mux32x44.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_acmp.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_cntdelay.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_io_inp.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_io_oe.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_io_reg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_ioconfig.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_lut2ff.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_lut3ff.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_lut4.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_misc.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_osc.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/gp_slg46110.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/baudgen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/rclk_div.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/mkr_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/mem_uartcfg.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="src/rx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/xo2000_top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="xo2000_top"/>
+        </Source>
+        <Source name="gp_test.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="gp_test1.sty"/>
+</BaliProject>
